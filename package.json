@@ -7,9 +7,15 @@
     "dev": "turbo run dev",
     "start": "turbo run start",
     "types": "turbo run types",
-    "prettier-fix": "prettier --write ."
+    "prettier-fix": "prettier --write .",
+    "test:open": "cypress open",
+    "test:run": "cypress run",
+    "lint": "turbo run lint",
+    "find:unused": "turbo run find:unused",
+    "analyze": "turbo run analyze"
   },
   "devDependencies": {
+    "cypress": "^12.7.0",
     "husky": "^8.0.1",
     "prettier": "^2.7.1",
     "turbo": "^1.4.6"
